@@ -22,7 +22,8 @@ struct MovieDetailView: View {
       ScrollView(.vertical) {
         VStack(alignment: .center) {
           if movieVM.movie.loading {
-            LoadingProgress(2.0).frame(width: 100, height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+            LoadingProgress(2.0)
+              .frame(width: 100, height: 100, alignment: .center)
           } else if movieVM.movie.isSuccess {
             ZStack(alignment: Alignment(horizontal: .center, vertical: .top)) {
               BackDropView(url: movieVM.movie.data?.backdropUrl ?? "")

@@ -10,7 +10,9 @@ import Foundation
 
 extension Photo {
   static func getMock(id: Int) -> Photo {
-    Photo(url:  "https://image.tmdb.org/t/p/w500/\(id).jpg")
+    Photo(
+      url: "https://image.tmdb.org/t/p/w500/\(id).jpg"
+    )
   }
   
   static func getMockPhotos(num: Int) -> [Photo] {

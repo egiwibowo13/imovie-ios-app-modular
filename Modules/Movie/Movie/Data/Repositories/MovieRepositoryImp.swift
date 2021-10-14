@@ -70,12 +70,9 @@ extension MovieRepositoryImp: MovieRepository {
   }
   
   func getMovie(movieId: Int) -> AnyPublisher<Movie, APIError> {
-//    self.services.getMovie(id: movieId).map { movie in
-//      movie.toDomain()
-//    }.eraseToAnyPublisher()
     self.local.getMovieById(from: movieId).map { movieDb in
       movieDb.toDomain()
-    }.catch { err in
+    }.catch { _ in
       self.services.getMovie(id: movieId).map { movieDTO in
         movieDTO.toDomain()
       }

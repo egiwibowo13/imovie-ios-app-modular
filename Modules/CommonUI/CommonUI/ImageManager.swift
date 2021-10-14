@@ -25,7 +25,7 @@ public extension View {
   
   func MyIcon(systemName: String) -> some View {
     Image(systemName: systemName)
-      .frame(alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+      .frame(alignment: .center)
       .padding(0)
   }
 }
