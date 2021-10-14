@@ -1,0 +1,15 @@
+disabled_rules: # rule identifiers to exclude from running
+- trailing_whitespace
+- identifier_name
+- force_cast
+
+nesting:
+  type_level:
+    warning: 3 #--> this means the warning appears if you nest 3 level deep instead of 1
+    error: 6
+  statement_level:
+    warning: 5
+    error: 10
+    
+excluded: # paths to ignore during linting. Takes precedence over `included`.
+  - Pods

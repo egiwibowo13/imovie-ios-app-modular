@@ -1,0 +1,49 @@
+PODS:
+  - Alamofire (5.4.4)
+  - CryptoSwift (1.4.2)
+  - Realm (10.16.0):
+    - Realm/Headers (= 10.16.0)
+  - Realm/Headers (10.16.0)
+  - RealmSwift (10.16.0):
+    - Realm (= 10.16.0)
+  - Resolver (1.4.4)
+  - SDWebImage (5.12.0):
+    - SDWebImage/Core (= 5.12.0)
+  - SDWebImage/Core (5.12.0)
+  - SDWebImageSwiftUI (2.0.2):
+    - SDWebImage (~> 5.10)
+  - SwiftLint (0.44.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - CryptoSwift
+  - RealmSwift (~> 10)
+  - Resolver
+  - SDWebImage
+  - SDWebImageSwiftUI
+  - SwiftLint
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - CryptoSwift
+    - Realm
+    - RealmSwift
+    - Resolver
+    - SDWebImage
+    - SDWebImageSwiftUI
+    - SwiftLint
+
+SPEC CHECKSUMS:
+  Alamofire: f3b09a368f1582ab751b3fff5460276e0d2cf5c9
+  CryptoSwift: a532e74ed010f8c95f611d00b8bbae42e9fe7c17
+  Realm: b6027801398f3743fc222f096faa85281b506e6c
+  RealmSwift: b02a3d0e4947955da960b642c98ad3a461fc4e70
+  Resolver: ec76daf652ac898b1e8a449cd9df3b45b5ce8196
+  SDWebImage: 4ea20cca2986adc5aacde07aa686742fd4c67a37
+  SDWebImageSwiftUI: 8a3923c95108312b03a599ec1498754af55a6819
+  SwiftLint: e96c0a8c770c7ebbc4d36c55baf9096bb65c4584
+
+PODFILE CHECKSUM: 1bebe0942cb7df6e3d41ca0a163006f9111f2069
+
+COCOAPODS: 1.10.1
