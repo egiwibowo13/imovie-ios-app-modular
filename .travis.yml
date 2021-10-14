@@ -3,3 +3,6 @@ osx_image: xcode12
 xcode_project: iMovies Modularization.xcworkspace
 xcode_scheme: imovie
 xcode_destination: platform=iOS Simulator,OS=14.0,name=iPhone 11 Pro
+
+before_install:
+- gem install cocoapods # Since Travis is not always on latest version
