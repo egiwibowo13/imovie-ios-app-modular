@@ -48,6 +48,16 @@
                ReferencedContainer = "container:imovie.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "50BECC0B2717BAA900ED7E88"
+               BuildableName = "HomeTests.xctest"
+               BlueprintName = "HomeTests"
+               ReferencedContainer = "container:Modules/Home/Home.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
