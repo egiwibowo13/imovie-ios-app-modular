@@ -107,7 +107,7 @@ extension MovieDetailView {
   
   func IconFavorite(isFavorit: Bool) -> some View {
     Button(action: {
-      self.movieVM.saveMovie(isFavorite: isFavorit)
+      self.movieVM.saveMovie()
     }, label: {
       MyIcon(systemName: isFavorit ? "heart.fill": "heart")
         .foregroundColor(.gray)

@@ -25,10 +25,6 @@ class MovieDetailViewModel: ObservableObject {
     self.movieId = movieId
     self.movieUseCase = movieUseCase
     
-    loadDataRemote()
-  }
-  
-  func loadDataRemote() {
     getMovie()
     getCastAndCrew()
     getMovieRecommendation()
@@ -36,11 +32,12 @@ class MovieDetailViewModel: ObservableObject {
   }
   
   func getCastCrewsLimit() -> [CastAndCrew] {
-    let castLength = castsAndCrews.data?.count ?? 0
+    let castAndCrews: [CastAndCrew] = castsAndCrews.data ?? []
+    let castLength = castAndCrews.count
     if castLength > 5 {
-      return Array(castsAndCrews.data?[1...5] ?? [])
+      return Array(castAndCrews[0...4])
     } else if castLength > 0 {
-      return Array(castsAndCrews.data?[1...castLength] ?? [])
+      return Array(castAndCrews[0...castLength - 1])
     }
     return []
   }
@@ -109,13 +106,13 @@ class MovieDetailViewModel: ObservableObject {
       }.store(in: &cancellables)
   }
   
-  func saveMovie(isFavorite: Bool) {
+  func saveMovie() {
     if self.movie.data != nil && !self.movie.data!.isFavorit {
       self.movieUseCase.saveMovieToFavorite(movie: self.movie.data!)
         .sink { completion in
           switch completion {
-          case .failure(let err):
-            print(err)
+          case .failure:
+            self.movie.data?.isFavorit = false
           default: break
           }
         } receiveValue: { _ in
@@ -125,8 +122,8 @@ class MovieDetailViewModel: ObservableObject {
       self.movieUseCase.deleteMovieFromFavorite(movie: self.movie.data!)
         .sink { completion in
           switch completion {
-          case .failure(let err):
-            print(err)
+          case .failure:
+            self.movie.data?.isFavorit = true
           default: break
           }
         } receiveValue: { _ in

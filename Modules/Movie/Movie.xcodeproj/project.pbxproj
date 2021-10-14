@@ -33,6 +33,11 @@
 		50B8C27E2702A3C50015A36F /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50B8C27D2702A3C50015A36F /* Core.framework */; };
 		50BECD34271855BC00ED7E88 /* MovieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50BECD33271855BC00ED7E88 /* MovieTests.swift */; };
 		50BECD36271855BC00ED7E88 /* Movie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 504950E426FAB9F300260D18 /* Movie.framework */; };
+		50BECD6727185B9E00ED7E88 /* MockMovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50BECD6627185B9E00ED7E88 /* MockMovie.swift */; };
+		50BECD6B27185BB600ED7E88 /* MockMovieDetailUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50BECD6A27185BB600ED7E88 /* MockMovieDetailUseCase.swift */; };
+		50BECD6F27185BEE00ED7E88 /* MovieDetailViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50BECD6E27185BEE00ED7E88 /* MovieDetailViewModelTests.swift */; };
+		50BECD7527185D2B00ED7E88 /* MockCastAndCrew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50BECD7427185D2B00ED7E88 /* MockCastAndCrew.swift */; };
+		50BECD7B271862E700ED7E88 /* MockPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50BECD7A271862E700ED7E88 /* MockPhoto.swift */; };
 		50C2EB8D27089A9D00269A82 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C2EB8C27089A9D00269A82 /* Photo.swift */; };
 		50C2EB9227089D2700269A82 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C2EB9127089D2700269A82 /* Movie.swift */; };
 		50C2EB9427089DD200269A82 /* RecommendationMovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C2EB9327089DD200269A82 /* RecommendationMovie.swift */; };
@@ -81,6 +86,11 @@
 		50BECD31271855BC00ED7E88 /* MovieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		50BECD33271855BC00ED7E88 /* MovieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTests.swift; sourceTree = "<group>"; };
 		50BECD35271855BC00ED7E88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50BECD6627185B9E00ED7E88 /* MockMovie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockMovie.swift; sourceTree = "<group>"; };
+		50BECD6A27185BB600ED7E88 /* MockMovieDetailUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockMovieDetailUseCase.swift; sourceTree = "<group>"; };
+		50BECD6E27185BEE00ED7E88 /* MovieDetailViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailViewModelTests.swift; sourceTree = "<group>"; };
+		50BECD7427185D2B00ED7E88 /* MockCastAndCrew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockCastAndCrew.swift; sourceTree = "<group>"; };
+		50BECD7A271862E700ED7E88 /* MockPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockPhoto.swift; sourceTree = "<group>"; };
 		50C2EB8C27089A9D00269A82 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
 		50C2EB9127089D2700269A82 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		50C2EB9327089DD200269A82 /* RecommendationMovie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendationMovie.swift; sourceTree = "<group>"; };
@@ -292,6 +302,11 @@
 			children = (
 				50BECD33271855BC00ED7E88 /* MovieTests.swift */,
 				50BECD35271855BC00ED7E88 /* Info.plist */,
+				50BECD6627185B9E00ED7E88 /* MockMovie.swift */,
+				50BECD6A27185BB600ED7E88 /* MockMovieDetailUseCase.swift */,
+				50BECD6E27185BEE00ED7E88 /* MovieDetailViewModelTests.swift */,
+				50BECD7427185D2B00ED7E88 /* MockCastAndCrew.swift */,
+				50BECD7A271862E700ED7E88 /* MockPhoto.swift */,
 			);
 			path = MovieTests;
 			sourceTree = "<group>";
@@ -542,6 +557,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50BECD6F27185BEE00ED7E88 /* MovieDetailViewModelTests.swift in Sources */,
+				50BECD6727185B9E00ED7E88 /* MockMovie.swift in Sources */,
+				50BECD6B27185BB600ED7E88 /* MockMovieDetailUseCase.swift in Sources */,
+				50BECD7527185D2B00ED7E88 /* MockCastAndCrew.swift in Sources */,
+				50BECD7B271862E700ED7E88 /* MockPhoto.swift in Sources */,
 				50BECD34271855BC00ED7E88 /* MovieTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
