@@ -26,16 +26,6 @@ struct Movie: Equatable, Identifiable {
   var releaseDateView: String {
     dateFormatter.string(from: releaseDate)
   }
-  
-  static var example: Movie {
-    Movie(
-      id: 1,
-      title: "Revenge",
-      posterUrl: "https://image.tmdb.org/t/p/w500/8b22sVNbNruOcF6gv0PuhxcLFf3.jpg",
-      voteAverage: 4.5,
-      totalVote: 100,
-      releaseDate: Date())
-  }
 }
 
 struct MoviesPage: Equatable {

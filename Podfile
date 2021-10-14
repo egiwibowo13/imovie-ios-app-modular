@@ -75,6 +75,9 @@ target 'Home' do
   image
   di
   database
+  
+  target 'HomeTests' do
+  end
 end
 
 
