@@ -95,6 +95,9 @@ target 'Favorite' do
   networking
   crypto
   database
+
+  target 'FavoriteTests' do
+  end
 end
 
 target 'Account' do
