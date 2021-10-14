@@ -58,17 +58,7 @@ extension MoviesResponseDTO.MovieDTO {
         posterUrl: "https://image.tmdb.org/t/p/w500\(posterPath ?? "")",
         voteAverage: voteAverage ?? 0.0,
         totalVote: totalVote,
-        releaseDate: dateFormatter.date(from: releaseDate ?? "") ?? Date()
+        releaseDate: releaseDate?.toDate(format: "yyy-MM-dd") ?? Date()
       )
     }
 }
-
-// MARK: - Private
-private let dateFormatter: DateFormatter = {
-    let formatter = DateFormatter()
-    formatter.dateFormat = "yyyy-MM-dd"
-    formatter.calendar = Calendar(identifier: .iso8601)
-    formatter.timeZone = TimeZone(secondsFromGMT: 0)
-    formatter.locale = Locale(identifier: "en_US_POSIX")
-    return formatter
-}()

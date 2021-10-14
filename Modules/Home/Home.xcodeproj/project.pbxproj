@@ -33,7 +33,6 @@
 		50E3B3542705450D00CC2BC6 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E3B3532705450D00CC2BC6 /* Movie.swift */; };
 		50E3B359270546F300CC2BC6 /* MoviesResponseDTO+Mapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E3B358270546F300CC2BC6 /* MoviesResponseDTO+Mapping.swift */; };
 		50E3B35B2705476A00CC2BC6 /* HomeServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E3B35A2705476A00CC2BC6 /* HomeServices.swift */; };
-		50E3B35F2705493E00CC2BC6 /* MovieDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E3B35E2705493E00CC2BC6 /* MovieDB.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,7 +73,6 @@
 		50E3B3532705450D00CC2BC6 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		50E3B358270546F300CC2BC6 /* MoviesResponseDTO+Mapping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MoviesResponseDTO+Mapping.swift"; sourceTree = "<group>"; };
 		50E3B35A2705476A00CC2BC6 /* HomeServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeServices.swift; sourceTree = "<group>"; };
-		50E3B35E2705493E00CC2BC6 /* MovieDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDB.swift; sourceTree = "<group>"; };
 		50F78A6126FB176500B93FC0 /* Navigation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Navigation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		50F78A6526FB176D00B93FC0 /* CommonUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CommonUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		50F78C6D26FB268300B93FC0 /* Navigator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Navigator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -146,7 +144,6 @@
 		504950CF26FAB92200260D18 /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				50E3B35C2705487100CC2BC6 /* LocaleStorage */,
 				50E3B356270546D100CC2BC6 /* Network */,
 				509BB7472709D3B100F5FE36 /* Repositories */,
 			);
@@ -259,22 +256,6 @@
 			children = (
 				50C6F7EF270A8B3400CB9297 /* Request */,
 				50E3B358270546F300CC2BC6 /* MoviesResponseDTO+Mapping.swift */,
-			);
-			path = DataMapping;
-			sourceTree = "<group>";
-		};
-		50E3B35C2705487100CC2BC6 /* LocaleStorage */ = {
-			isa = PBXGroup;
-			children = (
-				50E3B35D2705491600CC2BC6 /* DataMapping */,
-			);
-			path = LocaleStorage;
-			sourceTree = "<group>";
-		};
-		50E3B35D2705491600CC2BC6 /* DataMapping */ = {
-			isa = PBXGroup;
-			children = (
-				50E3B35E2705493E00CC2BC6 /* MovieDB.swift */,
 			);
 			path = DataMapping;
 			sourceTree = "<group>";
@@ -464,7 +445,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50E3B35F2705493E00CC2BC6 /* MovieDB.swift in Sources */,
 				50C6F7F8270A8DF600CB9297 /* HomeEndpoints.swift in Sources */,
 				50C6F7FB270A90F500CB9297 /* GetMoviesNowPlayingUseCase.swift in Sources */,
 				5071DB9B27143380008DE7C5 /* HomeViewInjector.swift in Sources */,

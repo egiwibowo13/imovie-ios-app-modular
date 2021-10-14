@@ -25,10 +25,9 @@ class FavoriteMoviesViewModel: ObservableObject {
     self.favoriteUseCase.getFavoriteMovies()
       .sink { completion in
         switch completion {
-        case .failure(let err):
-          print(err)
-        case .finished:
-          print("finish")
+        case .failure:
+          self.movies = []
+        default: break
         }
       } receiveValue: { movies in
         self.movies = movies

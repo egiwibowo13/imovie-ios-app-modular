@@ -58,6 +58,36 @@
                ReferencedContainer = "container:Modules/Home/Home.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "50BECD1C271854DD00ED7E88"
+               BuildableName = "AccountTests.xctest"
+               BlueprintName = "AccountTests"
+               ReferencedContainer = "container:Modules/Account/Account.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "50BECCB12718142600ED7E88"
+               BuildableName = "FavoriteTests.xctest"
+               BlueprintName = "FavoriteTests"
+               ReferencedContainer = "container:Modules/Favorite/Favorite.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "50BECD30271855BC00ED7E88"
+               BuildableName = "MovieTests.xctest"
+               BlueprintName = "MovieTests"
+               ReferencedContainer = "container:Modules/Movie/Movie.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction

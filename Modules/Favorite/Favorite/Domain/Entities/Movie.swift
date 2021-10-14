@@ -25,15 +25,6 @@ struct Movie: Identifiable {
   }
   
   var releaseDateView: String {
-    dateFormatter.string(from: releaseDate)
+    releaseDate.toString(format: "dd MMM yyyy")
   }
 }
-
-private let dateFormatter: DateFormatter = {
-    let formatter = DateFormatter()
-    formatter.dateFormat = "dd MMM yyyy"
-    formatter.calendar = Calendar(identifier: .iso8601)
-    formatter.timeZone = TimeZone(secondsFromGMT: 0)
-    formatter.locale = Locale(identifier: "en_US_POSIX")
-    return formatter
-}()

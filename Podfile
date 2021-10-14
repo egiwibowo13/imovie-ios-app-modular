@@ -87,6 +87,9 @@ target 'Movie' do
   image
   di
   database
+  
+  target 'MovieTests' do
+  end
 end
 
 target 'Favorite' do
@@ -103,6 +106,9 @@ end
 target 'Account' do
   project './Modules/Account/Account'
   image
+  
+  target 'AccountTests' do
+  end
 end
 
 
