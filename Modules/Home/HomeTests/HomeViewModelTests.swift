@@ -66,7 +66,7 @@ class HomeViewModelTests: XCTestCase {
   }
   
   func test_getUpcomingMoviesSuccess() {
-    let expectedMovies: [Movie] = [Movie.example]
+    let expectedMovies: [Movie] = Movie.getMockMovies(num: 10)
     mockHomeUseCase.getMoviesResult = .success(MoviesPage(page: 1, totalPages: 1, movies: expectedMovies))
     viewModel.getMoviesUpcoming()
     
@@ -76,7 +76,7 @@ class HomeViewModelTests: XCTestCase {
   }
   
   func test_getUpcomingMoviesFailure() {
-    let expectedMovies: [Movie] = [Movie.example]
+    let expectedMovies: [Movie] = Movie.getMockMovies(num: 10)
     mockHomeUseCase.getMoviesResult = .success(MoviesPage(page: 1, totalPages: 1, movies: expectedMovies))
     viewModel.getMoviesUpcoming()
     
