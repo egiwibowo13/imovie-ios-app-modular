@@ -24,7 +24,7 @@
 		5080724B270D6D3C00D383D7 /* CastItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5080724A270D6D3C00D383D7 /* CastItemView.swift */; };
 		50A4239426F8B6500055B6CB /* Typography.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A4239326F8B6500055B6CB /* Typography.swift */; };
 		50A423A526F8C3450055B6CB /* ImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A423A426F8C3450055B6CB /* ImageExtension.swift */; };
-		50B8C2A72702A6B50015A36F /* ImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B8C2A62702A6B50015A36F /* ImageManager.swift */; };
+		50B8C2A72702A6B50015A36F /* MyIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B8C2A62702A6B50015A36F /* MyIcon.swift */; };
 		50B8C2AA2702AB2D0015A36F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B8C2A92702AB2D0015A36F /* Constants.swift */; };
 		50F8CFB32706CFAC00AF5B84 /* Stars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F8CFB22706CFAC00AF5B84 /* Stars.swift */; };
 /* End PBXBuildFile section */
@@ -53,7 +53,7 @@
 		5080724A270D6D3C00D383D7 /* CastItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastItemView.swift; sourceTree = "<group>"; };
 		50A4239326F8B6500055B6CB /* Typography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typography.swift; sourceTree = "<group>"; };
 		50A423A426F8C3450055B6CB /* ImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageExtension.swift; sourceTree = "<group>"; };
-		50B8C2A62702A6B50015A36F /* ImageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageManager.swift; sourceTree = "<group>"; };
+		50B8C2A62702A6B50015A36F /* MyIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyIcon.swift; sourceTree = "<group>"; };
 		50B8C2A92702AB2D0015A36F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		50F8CFB22706CFAC00AF5B84 /* Stars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stars.swift; sourceTree = "<group>"; };
 		F863E6E77996CFDE4DA4A9CB /* libPods-CommonUI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CommonUI.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -124,7 +124,7 @@
 				504F026A26F9D62A00FD2519 /* ButtonSelection.swift */,
 				504F030826FA250800FD2519 /* Card.swift */,
 				5049509726FA9E5900260D18 /* ViewExtension.swift */,
-				50B8C2A62702A6B50015A36F /* ImageManager.swift */,
+				50B8C2A62702A6B50015A36F /* MyIcon.swift */,
 				50B8C2A92702AB2D0015A36F /* Constants.swift */,
 				50F8CFB22706CFAC00AF5B84 /* Stars.swift */,
 				5020E4CE270877B300D63C8A /* ListView.swift */,
@@ -260,7 +260,7 @@
 				50F8CFB32706CFAC00AF5B84 /* Stars.swift in Sources */,
 				5071DB162713DF1B008DE7C5 /* NavigationLazyView.swift in Sources */,
 				50A4239426F8B6500055B6CB /* Typography.swift in Sources */,
-				50B8C2A72702A6B50015A36F /* ImageManager.swift in Sources */,
+				50B8C2A72702A6B50015A36F /* MyIcon.swift in Sources */,
 				504F030926FA250800FD2519 /* Card.swift in Sources */,
 				50A423A526F8C3450055B6CB /* ImageExtension.swift in Sources */,
 				504F026B26F9D62A00FD2519 /* ButtonSelection.swift in Sources */,
