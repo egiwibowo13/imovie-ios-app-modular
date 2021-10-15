@@ -22,34 +22,3 @@ class LandingPresenter: ObservableObject {
     }
   }
 }
-
-struct Project {
-  let projectId: String
-  let status: String
-  let detailProject: String
-}
-
-protocol ActivityUser {
-  func edit(activity: Activity)
-  
-}
-
-struct Activity: ActivityUser {
-  func edit(activity: Activity) {
-    
-  }
-  
-  let activityId: String
-  let description: String
-}
-
-protocol User {
-  func update(projectId: String)
-}
-
-struct Coba {
-  let activity = Activity(activityId: "1", description: "description")
-  func a() {
-    activity.edit(activity: activity)
-  }
-}

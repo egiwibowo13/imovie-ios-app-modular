@@ -12,13 +12,9 @@ import CommonUI
 public protocol HomeRoutes {
   func movie(id: Int) -> AnyView
   func account() -> AnyView
-  func search() -> AnyView
 }
 
 class HomeRoutesSampleImp: HomeRoutes {
-  func search() -> AnyView {
-    return Text("search").toAnyView()
-  }
   
   func movie(id: Int) -> AnyView {
     return Text("movie").toAnyView()

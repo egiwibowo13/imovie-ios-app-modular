@@ -26,9 +26,6 @@ class AccountRoutesImp: AccountRoutes {
 }
 
 class HomeRoutesImp: HomeRoutes {
-  func search() -> AnyView {
-    return MyView().toAnyView()
-  }
   
   func movie(id: Int) -> AnyView {
     MovieViewInjector().makeMovieDetail(movieId: id)
