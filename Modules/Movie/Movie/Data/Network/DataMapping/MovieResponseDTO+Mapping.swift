@@ -7,6 +7,7 @@
 
 import Foundation
 import Core
+import Abstract
 
 struct MoviesResponseDTO: Decodable {
     private enum CodingKeys: String, CodingKey {

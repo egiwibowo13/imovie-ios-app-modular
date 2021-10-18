@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import Abstract
 
 struct MoviesResponseDTO: Decodable {
     private enum CodingKeys: String, CodingKey {

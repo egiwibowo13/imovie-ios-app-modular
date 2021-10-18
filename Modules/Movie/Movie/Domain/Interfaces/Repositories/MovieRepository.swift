@@ -7,7 +7,7 @@
 
 import Foundation
 import Combine
-import Core
+import Abstract
 
 protocol MovieRepository {
   func getMovie(movieId: Int) -> AnyPublisher<Movie, APIError>

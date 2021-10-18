@@ -7,7 +7,7 @@
 
 import Foundation
 import Combine
-import Core
+import Abstract
 
 protocol HomeUseCase {
   func getMoviesNowPlaying(request: MoviesRequestDTO) -> AnyPublisher<MoviesPage, APIError>

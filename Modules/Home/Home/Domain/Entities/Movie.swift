@@ -7,6 +7,7 @@
 
 import Foundation
 import Core
+import Abstract
 
 let MAX_AVG = 10
 

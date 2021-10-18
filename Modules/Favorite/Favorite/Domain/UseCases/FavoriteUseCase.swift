@@ -8,6 +8,7 @@
 import Foundation
 import Core
 import Combine
+import Abstract
 
 protocol FavoriteUseCase {
   func getFavoriteMovies() -> AnyPublisher<[Movie], APIError>

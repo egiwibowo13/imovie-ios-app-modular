@@ -1,4 +1,6 @@
 PODS:
+  - Abstract (1.0.1):
+    - Alamofire
   - Alamofire (5.4.4)
   - CryptoSwift (1.4.2)
   - Realm (10.16.0):
@@ -15,6 +17,7 @@ PODS:
   - SwiftLint (0.44.0)
 
 DEPENDENCIES:
+  - Abstract
   - Alamofire
   - CryptoSwift
   - RealmSwift (~> 10)
@@ -24,6 +27,8 @@ DEPENDENCIES:
   - SwiftLint
 
 SPEC REPOS:
+  https://github.com/egiwibowo13/imovie-abstract-spec:
+    - Abstract
   trunk:
     - Alamofire
     - CryptoSwift
@@ -35,6 +40,7 @@ SPEC REPOS:
     - SwiftLint
 
 SPEC CHECKSUMS:
+  Abstract: 4c42abe1bba3ef0a3bfd3d6a9ca17a3d114a8155
   Alamofire: f3b09a368f1582ab751b3fff5460276e0d2cf5c9
   CryptoSwift: a532e74ed010f8c95f611d00b8bbae42e9fe7c17
   Realm: b6027801398f3743fc222f096faa85281b506e6c
@@ -44,6 +50,6 @@ SPEC CHECKSUMS:
   SDWebImageSwiftUI: 8a3923c95108312b03a599ec1498754af55a6819
   SwiftLint: e96c0a8c770c7ebbc4d36c55baf9096bb65c4584
 
-PODFILE CHECKSUM: 772b682d5fcc793f166e8f997cfe873b86b78ecb
+PODFILE CHECKSUM: f6d9c63ba96a7e71047b9328ae538a7f4e9483ea
 
 COCOAPODS: 1.10.1

@@ -7,6 +7,7 @@
 
 import Foundation
 import Combine
+import Abstract
 import Core
 
 final class MovieRepositoryImp: NSObject {

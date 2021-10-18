@@ -9,19 +9,10 @@
 /* Begin PBXBuildFile section */
 		01A9942A3B4AD253F2A46944 /* libPods-Core.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BA7589F2CAFB0BE0753AF8B7 /* libPods-Core.a */; };
 		501A523826F863E5001D954B /* Core.h in Headers */ = {isa = PBXBuildFile; fileRef = 501A523626F863E5001D954B /* Core.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		501A525226F866E0001D954B /* Hello.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501A525126F866E0001D954B /* Hello.swift */; };
 		5024B2DC2711D2B100AACB9C /* Injector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5024B2DB2711D2B100AACB9C /* Injector.swift */; };
-		5052E07327092A890090DF90 /* CodableExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5052E07227092A890090DF90 /* CodableExt.swift */; };
-		5052E07627092B680090DF90 /* StringExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5052E07527092B680090DF90 /* StringExt.swift */; };
-		5052E08E27092DF40090DF90 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5052E08D27092DF40090DF90 /* APIError.swift */; };
-		5052E09227092E1E0090DF90 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5052E09127092E1E0090DF90 /* Endpoint.swift */; };
-		505B33C427164366008F1200 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505B33C327164366008F1200 /* Date.swift */; };
 		5071DB122713DDBF008DE7C5 /* ResultExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5071DB112713DDBF008DE7C5 /* ResultExt.swift */; };
-		5071DB1927141FFE008DE7C5 /* BaseResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5071DB1827141FFE008DE7C5 /* BaseResult.swift */; };
 		5078E2C8270FCDEE00861F9F /* RealmDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5078E2C7270FCDEE00861F9F /* RealmDataSource.swift */; };
 		5078E337270FD49C00861F9F /* MovieDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5078E336270FD49C00861F9F /* MovieDB.swift */; };
-		509BB6F12709C7C200F5FE36 /* NetworkConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509BB6F02709C7C200F5FE36 /* NetworkConfig.swift */; };
-		509BB6F42709CA0800F5FE36 /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509BB6F32709CA0800F5FE36 /* ApiClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,19 +21,10 @@
 		501A523326F863E5001D954B /* Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		501A523626F863E5001D954B /* Core.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Core.h; sourceTree = "<group>"; };
 		501A523726F863E5001D954B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		501A525126F866E0001D954B /* Hello.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hello.swift; sourceTree = "<group>"; };
 		5024B2DB2711D2B100AACB9C /* Injector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Injector.swift; sourceTree = "<group>"; };
-		5052E07227092A890090DF90 /* CodableExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableExt.swift; sourceTree = "<group>"; };
-		5052E07527092B680090DF90 /* StringExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExt.swift; sourceTree = "<group>"; };
-		5052E08D27092DF40090DF90 /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
-		5052E09127092E1E0090DF90 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
-		505B33C327164366008F1200 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 		5071DB112713DDBF008DE7C5 /* ResultExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultExt.swift; sourceTree = "<group>"; };
-		5071DB1827141FFE008DE7C5 /* BaseResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseResult.swift; sourceTree = "<group>"; };
 		5078E2C7270FCDEE00861F9F /* RealmDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmDataSource.swift; sourceTree = "<group>"; };
 		5078E336270FD49C00861F9F /* MovieDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDB.swift; sourceTree = "<group>"; };
-		509BB6F02709C7C200F5FE36 /* NetworkConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkConfig.swift; sourceTree = "<group>"; };
-		509BB6F32709CA0800F5FE36 /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
 		6D7C6E5E13C8A80E95DEE389 /* Pods-imovie-Core.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-imovie-Core.debug.xcconfig"; path = "Target Support Files/Pods-imovie-Core/Pods-imovie-Core.debug.xcconfig"; sourceTree = "<group>"; };
 		756BAB7CE643F75F76353289 /* Pods-imovie-Core.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-imovie-Core.release.xcconfig"; path = "Target Support Files/Pods-imovie-Core/Pods-imovie-Core.release.xcconfig"; sourceTree = "<group>"; };
 		BA7589F2CAFB0BE0753AF8B7 /* libPods-Core.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Core.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -86,7 +68,6 @@
 				501A528526F86C4F001D954B /* Extension */,
 				501A523626F863E5001D954B /* Core.h */,
 				501A523726F863E5001D954B /* Info.plist */,
-				501A525126F866E0001D954B /* Hello.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -94,10 +75,7 @@
 		501A528526F86C4F001D954B /* Extension */ = {
 			isa = PBXGroup;
 			children = (
-				5052E07227092A890090DF90 /* CodableExt.swift */,
-				5052E07527092B680090DF90 /* StringExt.swift */,
 				5071DB112713DDBF008DE7C5 /* ResultExt.swift */,
-				505B33C327164366008F1200 /* Date.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -114,21 +92,8 @@
 			isa = PBXGroup;
 			children = (
 				5078E2C6270FCDD200861F9F /* Realm */,
-				5052E08C27092DE10090DF90 /* State */,
-				5052E09127092E1E0090DF90 /* Endpoint.swift */,
-				509BB6F02709C7C200F5FE36 /* NetworkConfig.swift */,
-				509BB6F32709CA0800F5FE36 /* ApiClient.swift */,
 			);
 			path = Data;
-			sourceTree = "<group>";
-		};
-		5052E08C27092DE10090DF90 /* State */ = {
-			isa = PBXGroup;
-			children = (
-				5052E08D27092DF40090DF90 /* APIError.swift */,
-				5071DB1827141FFE008DE7C5 /* BaseResult.swift */,
-			);
-			path = State;
 			sourceTree = "<group>";
 		};
 		5078E2C6270FCDD200861F9F /* Realm */ = {
@@ -273,19 +238,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				509BB6F42709CA0800F5FE36 /* ApiClient.swift in Sources */,
 				5078E2C8270FCDEE00861F9F /* RealmDataSource.swift in Sources */,
-				5071DB1927141FFE008DE7C5 /* BaseResult.swift in Sources */,
 				5024B2DC2711D2B100AACB9C /* Injector.swift in Sources */,
-				5052E07327092A890090DF90 /* CodableExt.swift in Sources */,
-				5052E08E27092DF40090DF90 /* APIError.swift in Sources */,
 				5071DB122713DDBF008DE7C5 /* ResultExt.swift in Sources */,
-				509BB6F12709C7C200F5FE36 /* NetworkConfig.swift in Sources */,
-				5052E07627092B680090DF90 /* StringExt.swift in Sources */,
-				501A525226F866E0001D954B /* Hello.swift in Sources */,
 				5078E337270FD49C00861F9F /* MovieDB.swift in Sources */,
-				505B33C427164366008F1200 /* Date.swift in Sources */,
-				5052E09227092E1E0090DF90 /* Endpoint.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

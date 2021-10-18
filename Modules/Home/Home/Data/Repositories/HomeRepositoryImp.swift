@@ -7,7 +7,7 @@
 
 import Foundation
 import Combine
-import Core
+import Abstract
 
 final class HomeRepositoryImp: NSObject {
 

@@ -7,7 +7,7 @@
 
 import Foundation
 import Combine
-import Core
+import Abstract
 
 public class GetMoviesNowPlayingUseCase {
     

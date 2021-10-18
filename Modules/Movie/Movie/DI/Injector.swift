@@ -6,8 +6,8 @@
 //
 
 import Foundation
+import Abstract
 import Core
-import RealmSwift
 
 class MovieInjector {
   func provideApiDataConfig() -> NetworkConfigurable {

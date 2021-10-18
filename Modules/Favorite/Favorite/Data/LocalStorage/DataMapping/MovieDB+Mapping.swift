@@ -7,6 +7,7 @@
 
 import Foundation
 import Core
+import Abstract
 
 extension MovieDB {
   func toDomain() -> Movie {

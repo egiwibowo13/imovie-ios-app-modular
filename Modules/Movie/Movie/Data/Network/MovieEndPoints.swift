@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import Core
+import Abstract
 
 class MovieEndpoints {
   func getMovie(id: Int) -> Endpoint<MoviesResponseDTO.MovieDTO> {

@@ -1,11 +1,17 @@
 # Uncomment the next line to define a global platform for your project
 platform :ios, '14.0'
 
+$source = 'https://github.com/egiwibowo13/imovie-abstract-spec'
+
 # Comment the next line if you don't want to use dynamic frameworks
 # use_frameworks!
 use_modular_headers!
 
 workspace 'iMovies Modularization'
+
+def abstract
+  pod 'Abstract', :source => $source
+end
 
 def linter
   pod 'SwiftLint'
@@ -45,6 +51,7 @@ target 'imovie' do
   di
   networking
   database
+  abstract
 
   target 'imovieTests' do
     inherit! :search_paths
@@ -62,11 +69,13 @@ target 'Core' do
   networking
   crypto
   database
+  abstract
 end
 
 target 'CommonUI' do
   project './Modules/CommonUI/CommonUI'
   image
+  abstract
 end
 
 target 'Home' do
@@ -75,6 +84,7 @@ target 'Home' do
   image
   di
   database
+  abstract
   
   target 'HomeTests' do
   end
@@ -87,6 +97,7 @@ target 'Movie' do
   image
   di
   database
+  abstract
   
   target 'MovieTests' do
   end
@@ -98,6 +109,7 @@ target 'Favorite' do
   networking
   crypto
   database
+  abstract
 
   target 'FavoriteTests' do
   end
@@ -106,6 +118,7 @@ end
 target 'Account' do
   project './Modules/Account/Account'
   image
+  abstract
   
   target 'AccountTests' do
   end

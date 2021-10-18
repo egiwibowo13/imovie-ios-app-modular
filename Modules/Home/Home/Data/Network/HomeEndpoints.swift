@@ -7,6 +7,7 @@
 
 import Foundation
 import Core
+import Abstract
 
 class HomeEndpoints {
   func getMoviesNowPlaying(request: MoviesRequestDTO) -> Endpoint<MoviesResponseDTO> {

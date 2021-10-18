@@ -7,6 +7,7 @@
 
 import Foundation
 import Core
+import Abstract
 
 struct Movie: Identifiable {
   let _id = UUID()
