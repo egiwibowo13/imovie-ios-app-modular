@@ -7,7 +7,7 @@
 
 import XCTest
 @testable import Movie
-import Core
+import Abstract
 
 class MovieDetailViewModelTests: XCTestCase {
 

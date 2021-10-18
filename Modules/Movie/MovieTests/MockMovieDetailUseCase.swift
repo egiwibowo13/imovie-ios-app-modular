@@ -7,7 +7,7 @@
 
 import Foundation
 import Combine
-import Core
+import Abstract
 @testable import Movie
 
 final class MockMovieDetailUseCase: MovieDetailUseCase {

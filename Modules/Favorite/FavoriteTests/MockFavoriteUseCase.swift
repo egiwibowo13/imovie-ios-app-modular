@@ -7,7 +7,7 @@
 
 import Foundation
 import Combine
-import Core
+import Abstract
 @testable import Favorite
 
 final class MockFavoriteUseCase: FavoriteUseCase {

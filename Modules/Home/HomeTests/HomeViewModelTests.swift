@@ -7,7 +7,7 @@
 
 import XCTest
 @testable import Home
-import Core
+import Abstract
 
 class HomeViewModelTests: XCTestCase {
   
