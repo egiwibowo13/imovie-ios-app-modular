@@ -1,0 +1,15 @@
+/* 
+  Localizable.strings
+  Movie
+
+  Created by Egi Wibowo on 19/10/21.
+  
+*/
+
+"cast_and_crew" = "Cast And Crew";
+"photos" = "Photos";
+"recommendations" = "Recommendations";
+"synopsis" = "Synopsis";
+"viaw_all" = "View All";
+
+"please_try_again" = "Please Try Again";

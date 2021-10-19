@@ -31,18 +31,18 @@ struct FavoriteMoviesView: View {
             self.nav.movie(id: id)
           }
         } else {
-          EmptyFAvoriteMoview()
+          EmptyFavoriteMovie()
         }
-      }.navigationTitle("Favorite")
+      }.navigationTitle("favorite_title".localized(identifier: Constants.bundleId))
       .navigationBarTitleDisplayMode(.inline)
     }
 }
 
 extension FavoriteMoviesView {
-  func EmptyFAvoriteMoview() -> some View {
+  func EmptyFavoriteMovie() -> some View {
     VStack(spacing: 16) {
       Image("empty-box", bundle: Constants.bundle).picture(type: .square, size: .xlarge)
-      Text("Favorite is empty")
+      Text("empty_favorite".localized(identifier: Constants.bundleId))
     }.padding(.top, 16)
   }
   

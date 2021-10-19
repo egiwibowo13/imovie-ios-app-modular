@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Abstract
 
 struct AccountView: View {
   var nav: AccountRoutes
@@ -17,13 +18,17 @@ struct AccountView: View {
       VStack(alignment: .center, spacing: 16) {
         Profile().padding(.vertical, 16)
         SocialMedia().padding(.vertical, 16)
-        MenuItem("heart", title: "Favorite Movie", destination: self.nav.favoriteMovies()).padding(.vertical, 16)
+        MenuItem(
+          "heart",
+          title: "favorite_movie".localized(identifier: Constants.bundleId),
+          destination: self.nav.favoriteMovies()
+        ).padding(.vertical, 16)
         Spacer()
       }
       .padding(.vertical, 16)
       .frame(alignment: .top)
       .navigationBarTitleDisplayMode(.inline)
-      .navigationTitle("Profile")
+      .navigationTitle("account_title".localized(identifier: Constants.bundleId))
     }
 }
 

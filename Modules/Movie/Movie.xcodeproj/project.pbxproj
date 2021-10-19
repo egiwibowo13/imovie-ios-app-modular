@@ -43,6 +43,8 @@
 		50C2EB9427089DD200269A82 /* RecommendationMovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C2EB9327089DD200269A82 /* RecommendationMovie.swift */; };
 		50C2EB9627089F5900269A82 /* CastAndCrew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C2EB9527089F5900269A82 /* CastAndCrew.swift */; };
 		50C2EB9B2708A90500269A82 /* PhotosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C2EB9A2708A90500269A82 /* PhotosView.swift */; };
+		50E0CA30271E40F5005B114A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 50E0CA32271E40F5005B114A /* Localizable.strings */; };
+		50E0CA37271E41BF005B114A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E0CA36271E41BF005B114A /* Constants.swift */; };
 		50F78DEE26FB634400B93FC0 /* Injector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F78DED26FB634400B93FC0 /* Injector.swift */; };
 /* End PBXBuildFile section */
 
@@ -96,6 +98,9 @@
 		50C2EB9327089DD200269A82 /* RecommendationMovie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendationMovie.swift; sourceTree = "<group>"; };
 		50C2EB9527089F5900269A82 /* CastAndCrew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastAndCrew.swift; sourceTree = "<group>"; };
 		50C2EB9A2708A90500269A82 /* PhotosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosView.swift; sourceTree = "<group>"; };
+		50E0CA31271E40F5005B114A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		50E0CA35271E40F8005B114A /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = id.lproj/Localizable.strings; sourceTree = "<group>"; };
+		50E0CA36271E41BF005B114A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		50F78A5926FB174D00B93FC0 /* Navigation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Navigation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		50F78A5D26FB175A00B93FC0 /* CommonUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CommonUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		50F78C6926FB267B00B93FC0 /* Navigator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Navigator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -146,6 +151,8 @@
 		504950DA26FAB9F300260D18 = {
 			isa = PBXGroup;
 			children = (
+				50E0CA36271E41BF005B114A /* Constants.swift */,
+				50E0CA32271E40F5005B114A /* Localizable.strings */,
 				504950E626FAB9F300260D18 /* Movie */,
 				50BECD32271855BC00ED7E88 /* MovieTests */,
 				504950E526FAB9F300260D18 /* Products */,
@@ -443,6 +450,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				id,
 				Base,
 			);
 			mainGroup = 504950DA26FAB9F300260D18;
@@ -461,6 +469,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50E0CA30271E40F5005B114A /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -532,6 +541,7 @@
 				50C2EB8D27089A9D00269A82 /* Photo.swift in Sources */,
 				50807144270D04F400D383D7 /* MovieResponseDTO+Mapping.swift in Sources */,
 				505B33C727165D80008F1200 /* BaseResult.swift in Sources */,
+				50E0CA37271E41BF005B114A /* Constants.swift in Sources */,
 				50C2EB9227089D2700269A82 /* Movie.swift in Sources */,
 				5066AC6B270EFD1E008E6402 /* MoviesRecommendViewModel.swift in Sources */,
 				50C2EB9627089F5900269A82 /* CastAndCrew.swift in Sources */,
@@ -575,6 +585,18 @@
 			targetProxy = 50BECD37271855BC00ED7E88 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		50E0CA32271E40F5005B114A /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50E0CA31271E40F5005B114A /* en */,
+				50E0CA35271E40F8005B114A /* id */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		504950EA26FAB9F300260D18 /* Debug */ = {

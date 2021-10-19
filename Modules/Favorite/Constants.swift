@@ -8,5 +8,6 @@
 import Foundation
 
 struct Constants {
-  static let bundle = Bundle(identifier: "co.id.egiwibowo.Favorite")!
+  static let bundleId = "co.id.egiwibowo.Favorite"
+  static let bundle = Bundle(identifier: bundleId)!
 }

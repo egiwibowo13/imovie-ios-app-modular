@@ -1,0 +1,15 @@
+/* 
+  Localizable.strings
+  Movie
+
+  Created by Egi Wibowo on 19/10/21.
+  
+*/
+
+"cast_and_crew" = "Pemeran dan Kru";
+"photos" = "Foto";
+"recommendations" = "Rekomendasi";
+"synopsis" = "Ringkasan";
+"viaw_all" = "Lihat Semua";
+
+"please_try_again" = "Silakan coba lagi";

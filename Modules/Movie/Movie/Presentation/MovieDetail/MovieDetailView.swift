@@ -7,6 +7,7 @@
 
 import SwiftUI
 import CommonUI
+import Abstract
 
 struct MovieDetailView: View {
   
@@ -86,7 +87,7 @@ extension MovieDetailView {
   func MovieInfo(movie: Movie) -> some View {
     VStack {
       ImageAsync(movie.posterUrl, type: .potrait, size: .medium)
-      Text(movie.title).font(.title3Font).foregroundColor(.black)
+      Text(movie.title).font(.title3Font).foregroundColor(.black).multilineTextAlignment(.center)
       Text("\(movie.releaseDateView) | \(movie.runtimeView)").font(.calloutFont).foregroundColor(.gray)
       Text(movie.genres).font(.calloutFont).foregroundColor(.gray)
       HStack {
@@ -100,7 +101,7 @@ extension MovieDetailView {
   func ErrorViewItem(action: @escaping () -> Void) -> some View {
     Button(action: { action() }, label: {
       HStack {
-        Text("Please Try Again")
+        Text("please_try_again".localized(identifier: Constants.bundleId))
         MyIcon(systemName: "arrow.counterclockwise")
       }
     }).buttonStyle(PlainButtonStyle())
@@ -132,21 +133,23 @@ extension MovieDetailView {
       NavigationLink(
         destination: destination,
         label: {
-          Text("View All").font(.subheadline2Font)
+          Text("viaw_all".localized(identifier: Constants.bundleId)).font(.subheadline2Font)
         })
     }
   }
   
   func SynopsisView(_ description: String) -> some View {
     VStack(alignment: .leading) {
-      Text("Synopsis").font(.headlineFont).foregroundColor(.black)
+      Text("synopsis".localized(identifier: Constants.bundleId)).font(.headlineFont).foregroundColor(.black)
       Text(description).font(.captionFont).foregroundColor(.black)
     }.frame(alignment: .leading)
   }
   
   func CastAndCrewView(data: [CastAndCrew], allData: [CastAndCrew]) -> some View {
     VStack {
-      SubTitle("Cast And Crew", destination: nav.castAndCrew(castsAndCrews: allData))
+      SubTitle(
+        "cast_and_crew".localized(identifier: Constants.bundleId),
+        destination: nav.castAndCrew(castsAndCrews: allData))
       ScrollView(.vertical, showsIndicators: false) {
         VStack {
           ForEach(data) { cast in
@@ -160,7 +163,10 @@ extension MovieDetailView {
   
   func PhotosView(data: [Photo]) -> some View {
     VStack {
-      SubTitle("Photos", destination: nav.photos(photos: data)).padding(.trailing, 16)
+      SubTitle(
+        "photos".localized(identifier: Constants.bundleId),
+        destination: nav.photos(photos: data)
+      ).padding(.trailing, 16)
       ScrollView(.horizontal, showsIndicators: false) {
         HStack {
           ForEach(data) { photo in
@@ -173,7 +179,10 @@ extension MovieDetailView {
   
   func RecommendationsView(data: [Movie]) -> some View {
     VStack {
-      SubTitle("Recommendations", destination: nav.recomendation(movieId: self.movieVM.movieId)).padding(.trailing, 16)
+      SubTitle(
+        "recommendations".localized(identifier: Constants.bundleId),
+        destination: nav.recomendation(movieId: self.movieVM.movieId)
+      ).padding(.trailing, 16)
       ScrollView(.horizontal, showsIndicators: false) {
         HStack {
           ForEach(data) { movie in

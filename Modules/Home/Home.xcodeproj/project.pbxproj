@@ -30,6 +30,8 @@
 		50C6F800270A91C100CB9297 /* HomeModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C6F7FF270A91C100CB9297 /* HomeModule.swift */; };
 		50C6F804270A94AE00CB9297 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C6F803270A94AE00CB9297 /* HomeViewModel.swift */; };
 		50C6F809270B224400CB9297 /* GetMoviesUpcomingUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C6F808270B224400CB9297 /* GetMoviesUpcomingUseCase.swift */; };
+		50E0CA3B271E4362005B114A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E0CA3A271E4362005B114A /* Constants.swift */; };
+		50E0CA44271E439A005B114A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 50E0CA46271E439A005B114A /* Localizable.strings */; };
 		50E3B3542705450D00CC2BC6 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E3B3532705450D00CC2BC6 /* Movie.swift */; };
 		50E3B359270546F300CC2BC6 /* MoviesResponseDTO+Mapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E3B358270546F300CC2BC6 /* MoviesResponseDTO+Mapping.swift */; };
 		50E3B35B2705476A00CC2BC6 /* HomeServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E3B35A2705476A00CC2BC6 /* HomeServices.swift */; };
@@ -70,6 +72,9 @@
 		50C6F7FF270A91C100CB9297 /* HomeModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModule.swift; sourceTree = "<group>"; };
 		50C6F803270A94AE00CB9297 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		50C6F808270B224400CB9297 /* GetMoviesUpcomingUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetMoviesUpcomingUseCase.swift; sourceTree = "<group>"; };
+		50E0CA3A271E4362005B114A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		50E0CA45271E439A005B114A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		50E0CA49271E439D005B114A /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = id.lproj/Localizable.strings; sourceTree = "<group>"; };
 		50E3B3532705450D00CC2BC6 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		50E3B358270546F300CC2BC6 /* MoviesResponseDTO+Mapping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MoviesResponseDTO+Mapping.swift"; sourceTree = "<group>"; };
 		50E3B35A2705476A00CC2BC6 /* HomeServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeServices.swift; sourceTree = "<group>"; };
@@ -110,6 +115,8 @@
 		504950A826FAB87600260D18 = {
 			isa = PBXGroup;
 			children = (
+				50E0CA46271E439A005B114A /* Localizable.strings */,
+				50E0CA3A271E4362005B114A /* Constants.swift */,
 				50B8C2A42702A6520015A36F /* Assets.xcassets */,
 				504950B426FAB87600260D18 /* Home */,
 				50BECC0D2717BAA900ED7E88 /* HomeTests */,
@@ -363,6 +370,7 @@
 			knownRegions = (
 				en,
 				Base,
+				id,
 			);
 			mainGroup = 504950A826FAB87600260D18;
 			productRefGroup = 504950B326FAB87600260D18 /* Products */;
@@ -381,6 +389,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				50B8C2A52702A6520015A36F /* Assets.xcassets in Resources */,
+				50E0CA44271E439A005B114A /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,6 +461,7 @@
 				509BB7492709D3DD00F5FE36 /* HomeRepositoryImp.swift in Sources */,
 				50E3B35B2705476A00CC2BC6 /* HomeServices.swift in Sources */,
 				50C6F800270A91C100CB9297 /* HomeModule.swift in Sources */,
+				50E0CA3B271E4362005B114A /* Constants.swift in Sources */,
 				50B8C2A32702A5390015A36F /* HomeRoutes.swift in Sources */,
 				506F6EC5270C01AB00338CD5 /* HomeRepository.swift in Sources */,
 				506F6EC8270C02C400338CD5 /* HomeUseCase.swift in Sources */,
@@ -483,6 +493,18 @@
 			targetProxy = 50BECC122717BAA900ED7E88 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		50E0CA46271E439A005B114A /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50E0CA45271E439A005B114A /* en */,
+				50E0CA49271E439D005B114A /* id */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		504950B826FAB87600260D18 /* Debug */ = {

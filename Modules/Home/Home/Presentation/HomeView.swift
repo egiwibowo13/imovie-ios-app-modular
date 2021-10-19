@@ -7,6 +7,7 @@
 
 import SwiftUI
 import CommonUI
+import Abstract
 
  struct HomeView: View {
   
@@ -20,8 +21,8 @@ import CommonUI
   ]
   
   var options: [ButtonSelectionItem] = [
-    ButtonSelectionItem(id: 0, title: "Now Showing"),
-    ButtonSelectionItem(id: 1, title: "Coming Soon")
+    ButtonSelectionItem(id: 0, title: "now_showing".localized(identifier: Constants.bundleId)),
+    ButtonSelectionItem(id: 1, title: "coming_soon".localized(identifier: Constants.bundleId))
   ]
   
    init(nav: HomeRoutes) {
