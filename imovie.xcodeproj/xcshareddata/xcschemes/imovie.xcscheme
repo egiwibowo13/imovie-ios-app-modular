@@ -27,7 +27,59 @@
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES"
-      codeCoverageEnabled = "YES">
+      codeCoverageEnabled = "YES"
+      onlyGenerateCoverageForSpecifiedTargets = "YES">
+      <CodeCoverageTargets>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "504950B126FAB87600260D18"
+            BuildableName = "Home.framework"
+            BlueprintName = "Home"
+            ReferencedContainer = "container:Modules/Home/Home.xcodeproj">
+         </BuildableReference>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "5071DB2427142D9C008DE7C5"
+            BuildableName = "Favorite.framework"
+            BlueprintName = "Favorite"
+            ReferencedContainer = "container:Modules/Favorite/Favorite.xcodeproj">
+         </BuildableReference>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "504950E326FAB9F300260D18"
+            BuildableName = "Movie.framework"
+            BlueprintName = "Movie"
+            ReferencedContainer = "container:Modules/Movie/Movie.xcodeproj">
+         </BuildableReference>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "501A526A26F86A0F001D954B"
+            BuildableName = "CommonUI.framework"
+            BlueprintName = "CommonUI"
+            ReferencedContainer = "container:Modules/CommonUI/CommonUI.xcodeproj">
+         </BuildableReference>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "501A51F326F84D71001D954B"
+            BuildableName = "imovie.app"
+            BlueprintName = "imovie"
+            ReferencedContainer = "container:imovie.xcodeproj">
+         </BuildableReference>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "5071DB3A27142DB4008DE7C5"
+            BuildableName = "Account.framework"
+            BlueprintName = "Account"
+            ReferencedContainer = "container:Modules/Account/Account.xcodeproj">
+         </BuildableReference>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "50BECD30271855BC00ED7E88"
+            BuildableName = "MovieTests.xctest"
+            BlueprintName = "MovieTests"
+            ReferencedContainer = "container:Modules/Movie/Movie.xcodeproj">
+         </BuildableReference>
+      </CodeCoverageTargets>
       <Testables>
          <TestableReference
             skipped = "NO">

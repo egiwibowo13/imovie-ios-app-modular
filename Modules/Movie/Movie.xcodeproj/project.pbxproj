@@ -101,6 +101,7 @@
 		50E0CA31271E40F5005B114A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		50E0CA35271E40F8005B114A /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = id.lproj/Localizable.strings; sourceTree = "<group>"; };
 		50E0CA36271E41BF005B114A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		50F007DA2818E98D003A8910 /* Home.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Home.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		50F78A5926FB174D00B93FC0 /* Navigation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Navigation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		50F78A5D26FB175A00B93FC0 /* CommonUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CommonUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		50F78C6926FB267B00B93FC0 /* Navigator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Navigator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -137,6 +138,7 @@
 		1B1B1C67E63DE6A6F25B85E4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				50F007DA2818E98D003A8910 /* Home.framework */,
 				50B8C27D2702A3C50015A36F /* Core.framework */,
 				50B8C2792702A3C10015A36F /* CommonUI.framework */,
 				50F78C6926FB267B00B93FC0 /* Navigator.framework */,

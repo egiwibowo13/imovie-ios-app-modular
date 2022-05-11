@@ -8,6 +8,7 @@
 import SwiftUI
 import CommonUI
 import Abstract
+import Movie
 
  struct HomeView: View {
   

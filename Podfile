@@ -88,6 +88,10 @@ target 'Home' do
   
   target 'HomeTests' do
   end
+
+  target 'HomeUITests' do
+    pod 'Cucumberish'
+  end
 end
 
 
