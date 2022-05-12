@@ -1,2 +1,10 @@
 /Pods
 /Build
+
+# Environment
+*.xcconfig
+*.mobileprovision
+
+# Output
+/output
+/.scannerwork
